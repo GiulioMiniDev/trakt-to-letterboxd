@@ -15,6 +15,7 @@ const headers = {
   'Content-Type': 'application/json',
   'trakt-api-version': '2',
   'trakt-api-key': config.clientId,
+  'User-Agent': 'trakt-to-letterboxd/1.1.2 (+https://github.com/bbeesley/trakt-to-letterboxd)',
 };
 
 /**
